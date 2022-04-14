@@ -83,5 +83,5 @@ namespace Lab7_1
 				rating = value;
 			}
 		}
-	}
+	} 
 }
