@@ -47,7 +47,7 @@ namespace Lab10_1
 		}
 		public override void SalaryAnalyzer(string surname, double salary)
 		{
-			if (Salary < 1000) Console.WriteLine("Worker " + Surname + " has a scanty salary.");
+			if (Salary < 1000) Console.WriteLine("Worker " + Surname + " has a meager salary.");
 			else if (Salary > 3000) Console.WriteLine("Worker " + Surname + " has a good salary.");
 			else Console.WriteLine("Worker " + Surname + " has a normal salary.");
 		}
