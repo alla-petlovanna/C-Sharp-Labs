@@ -23,28 +23,28 @@ namespace Lab10_1
 		{
 			Console.WriteLine("Information about the employee:\n" + Name + " " + Surname);
 		}
-		public void Salary()
+		public void Slr()
 		{
 			Console.WriteLine("Salary: " + Salary);
 		}
 		public void WriteAllInf()
 		{
-			Console.WriteLine("Вiк: " + Age + "\nПосада: " + Position + "\nСтаж роботи: " + Stag_Rob + "\nНадбавка за стаж: " + allowance);
+			Console.WriteLine("Age: " + Age + "\nPosition: " + Position + "\nWork experience: " + Work_Exp + "\nAllowance: " + allowance);
 		}
-		public double TotalIncome(int Stag_Rob, double allowance)
+		public double TotalIncome(int Work_Exp, double allowance)
 		{
 			double total_income = 0;
-			total_income = Stag_Rob * allowance + Salary;
+			total_income = Work_Exp * allowance + Salary;
 			return total_income;
 		}
 		public override void AgeAnalyzer()
 		{
-			if (Age < 16) Console.WriteLine("Цей службовець пiдлiток.");
-			else if (Age > 60) Console.WriteLine("Цей службовець пенсiонер.");
+			if (Age < 16) Console.WriteLine("This employee is a teenager.");
+			else if (Age > 60) Console.WriteLine("This employee is retired.");
 		}
 		public override void SalaryAnalyzer(string surname, double salary)
 		{
-			if (Salary < 5000) Console.WriteLine("Службовець " + Surname + " має мiзерну зарплату.");
+			if (Salary < 5000) Console.WriteLine("Employee " + Surname + " має мізерну зарплатуhas a scanty salary.");
 			else if (Salary > 15000) Console.WriteLine("Службовець " + Surname + " має непогану зарплату.");
 			else Console.WriteLine("Службовець " + Surname + "  має таку собi зарплату.");
 		}
