@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\bin\Debug\netcoreapp3.1\lab4_dop_1.exe
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\bin\Debug\netcoreapp3.1\lab4_dop_1.deps.json
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\bin\Debug\netcoreapp3.1\lab4_dop_1.runtimeconfig.json
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\bin\Debug\netcoreapp3.1\lab4_dop_1.runtimeconfig.dev.json
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\bin\Debug\netcoreapp3.1\lab4_dop_1.dll
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\bin\Debug\netcoreapp3.1\lab4_dop_1.pdb
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\obj\Debug\netcoreapp3.1\lab4_dop_1.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\obj\Debug\netcoreapp3.1\lab4_dop_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\obj\Debug\netcoreapp3.1\lab4_dop_1.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\obj\Debug\netcoreapp3.1\lab4_dop_1.AssemblyInfo.cs
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\obj\Debug\netcoreapp3.1\lab4_dop_1.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\obj\Debug\netcoreapp3.1\lab4_dop_1.dll
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\obj\Debug\netcoreapp3.1\lab4_dop_1.pdb
+C:\Users\admin\source\repos\lab4_dop\lab4_dop\obj\Debug\netcoreapp3.1\lab4_dop_1.genruntimeconfig.cache
