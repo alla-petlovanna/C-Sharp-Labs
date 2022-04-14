@@ -14,7 +14,7 @@ namespace Lab10_1
 			staff.Work_Exp = 4;
 			staff.Role();
 			staff.WriteAllInf();
-			staff.Sal();
+			staff.Slr();
 			staff.AgeAnalyzer();
 			Console.WriteLine("Total income: " + staff.TotalIncome(staff.Work_Exp, staff.allowance));
 			staff.SalaryAnalyzer(staff.Surname, staff.Salary);
@@ -25,7 +25,7 @@ namespace Lab10_1
 			wrkr.Work_Exp = 40;
 			wrkr.Role();
 			wrkr.InfAboutPosition(wrkr.Position);
-			wrkr.Sal();
+			wrkr.Slr();
 			wrkr.AgeAnalyzer();
 			wrkr.SalaryAnalyzer(wrkr.Surname, wrkr.Salary);
 			Console.WriteLine("Average salary for 6 months: " + wrkr.AverageSalary());
