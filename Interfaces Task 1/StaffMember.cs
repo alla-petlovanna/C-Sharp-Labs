@@ -44,9 +44,9 @@ namespace Lab10_1
 		}
 		public override void SalaryAnalyzer(string surname, double salary)
 		{
-			if (Salary < 5000) Console.WriteLine("Employee " + Surname + " має мізерну зарплатуhas a scanty salary.");
-			else if (Salary > 15000) Console.WriteLine("Службовець " + Surname + " має непогану зарплату.");
-			else Console.WriteLine("Службовець " + Surname + "  має таку собi зарплату.");
+			if (Salary < 1000) Console.WriteLine("Employee " + Surname + " has a meager salary.");
+			else if (Salary > 3000) Console.WriteLine("Employee " + Surname + " has a good salary.");
+			else Console.WriteLine("Employee " + Surname + "  has a normal salary.");
 		}
 	}
 }
