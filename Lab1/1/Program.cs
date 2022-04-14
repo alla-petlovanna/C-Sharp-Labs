@@ -6,9 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введiть своє призвiще:");
+            Console.WriteLine("Enter your last name:");
             string str = Console.ReadLine();
-            Console.WriteLine("Я студентка другого курсу - " + str + ". Це моя перша робота на С#");
+            Console.WriteLine("I'm a second year student - " + str + ". This is my first program on C #");
         }
     }
 }
