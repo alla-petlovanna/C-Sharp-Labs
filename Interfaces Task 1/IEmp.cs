@@ -8,7 +8,7 @@ namespace Lab10_1
 	interface IEmp
 	{
 		void Role();
-		void Salary();
+		void Slr();
 		string Name { get; set; }
 		int Work_Exp { get; set; }
 	}
