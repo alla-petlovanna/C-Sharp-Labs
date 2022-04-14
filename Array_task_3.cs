@@ -6,6 +6,11 @@ namespace lab4_3
 	{
 		static void Main()
 		{
+			/*
+			  Task:
+			  Create a rectangular array of integers and initialize it when creating.
+			  For each row of the array, calculate the number of elements that are over 10.
+			*/
 			Console.WriteLine("Enter the number of rows:");
 			int n = int.Parse(Console.ReadLine());
       
