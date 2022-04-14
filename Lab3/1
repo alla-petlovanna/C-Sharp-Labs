@@ -7,7 +7,7 @@ namespace Lab3
         static void Main()
         {
             double a, b, res;
-            char proverka;
+            char check;
             do
             {
                 Console.WriteLine("Enter the first operand:");
@@ -17,6 +17,7 @@ namespace Lab3
                 Console.ReadLine();
                 Console.WriteLine("Enter the second operand:");
                 b = double.Parse(Console.ReadLine());
+               
                 bool ok = true;
                 switch (op)
                 {
@@ -26,15 +27,14 @@ namespace Lab3
                     case '/': res = a / b; break;
                     default: res = double.NaN; ok = false; break;
                 }
+                
                 if (ok) Console.WriteLine("Result: " + res);
                 else Console.WriteLine("Invalid operation");
+                
                 Console.WriteLine("Finish work? Enter y, otherwise enter");
-                proverka = (char)Console.Read();
+                check = (char)Console.Read();
                 Console.ReadLine();
-            } while (proverka != 'y');
-
-
-
+            } while (check != 'y');
         }
     }
 }
