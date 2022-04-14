@@ -9,7 +9,8 @@ namespace lab4_1
 	{
 		static void Main()
 		{
-			/* Task:
+			/* 
+			   Task:
 			   Implement the function of finding all prime numbers in the range from 1 to 51. 
 			   Save the generated numbers in an array. Display the elements of the array on the console. 
 			   When implementing, use the Eratosthenes algorithm.
