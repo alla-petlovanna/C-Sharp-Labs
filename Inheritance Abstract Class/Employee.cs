@@ -38,7 +38,7 @@ namespace Lab9_1
 		}
 		public void WriteAllInf()
 		{
-			Console.WriteLine("Iнформацiя про службовця:\nФамiлiя: " + Surname + "\nВiк: " + Age + "\nПосада: " + Position + "\nЗарплата: " + Salary + "\nСтаж роботи: " + length_of_service + "\nНадбавка за стаж: " + allowance);
+			Console.WriteLine("Information about the employee:\nSurname: " + Surname + "\nAge: " + Age + "\nPosition: " + Position + "\nSalary: " + Salary + "\nLength of service: " + length_of_service + "\nAllowance: " + allowance);
 		}
 		public double TotalIncome(int length_of_service, double allowance)
 		{
@@ -48,14 +48,14 @@ namespace Lab9_1
 		}
 		public override void AgeAnalyzer()
 		{
-			if (Age < 16) Console.WriteLine("Цей службовець пiдлiток");
-			else if (Age > 60) Console.WriteLine("Цей службовець пенсiонер");
+			if (Age < 16) Console.WriteLine("This employee is a teenager");
+			else if (Age > 60) Console.WriteLine("This employee is retired");
 		}
 		public override void SalaryAnalyzer(string surname, double salary)
 		{
-			if (Salary < 5000) Console.WriteLine("Службовець " + Surname + " має мiзерну зарплату");
-			else if (Salary > 15000) Console.WriteLine("Службовець " + Surname + " має непогану зарплату");
-			else Console.WriteLine("Службовець " + Surname + "  має таку собi зарплату");
+			if (Salary < 1000) Console.WriteLine("Employee " + Surname + " has a meager salary");
+			else if (Salary > 3000) Console.WriteLine("Employee " + Surname + " has a good salary");
+			else Console.WriteLine("Employee " + Surname + "  has a normal salary");
 		}
 	}
 	class Worker : Employee
@@ -70,12 +70,12 @@ namespace Lab9_1
 		}
 		public void InfAboutPositionAndSalary(string position, double salary)
 		{
-			Console.WriteLine("Посада: " + Position + "\nЗарплата: " + Salary);
+			Console.WriteLine("Position: " + Position + "\nSalary: " + Salary);
 		}
 		public double AverageSalary()
 		{
 			int sum = 0;
-			int[] slr = new int[6] { 10000, 10500, 11000, 10300, 10600, 10600 };
+			int[] slr = new int[6] { 1000, 1500, 3000, 5000, 900, 2000 };
 			for (int i = 0; i < slr.Length; i++)
 			{
 				sum += slr[i];
@@ -85,14 +85,14 @@ namespace Lab9_1
 		}
 		public override void AgeAnalyzer()
 		{
-			if (Age < 16) Console.WriteLine("Цей робочий пiдлiток");
-			else if (Age > 60) Console.WriteLine("Цей робочий пенсiонер");
+			if (Age < 16) Console.WriteLine("This employee is a teenager");
+			else if (Age > 60) Console.WriteLine("This employee is retired");
 		}
 		public override void SalaryAnalyzer(string surname, double salary)
 		{
-			if (Salary < 5000) Console.WriteLine("Робочий " + Surname + " має мiзерну зарплату");
-			else if (Salary > 15000) Console.WriteLine("Робочий " + Surname + " має непогану зарплату");
-			else Console.WriteLine("Робочий " + Surname + " має таку собi зарплату");
+			if (Salary < 1000) Console.WriteLine("Employee " + Surname + " has a meager salary");
+			else if (Salary > 3000) Console.WriteLine("Employee " + Surname + " has a good salary");
+			else Console.WriteLine("Employee " + Surname + " has a normal salary");
 		}
 	}
 }
