@@ -6,6 +6,11 @@ namespace lab4_2
     {
         static void Main()
         {
+            /* 
+               Task:
+               Create an array that stores temperature data in one month. 
+               Calculate the average temperature in a month.
+            */
             double Sum = 0, Avr_temp;
             int days = 31; // There are 31 days in March
             double[] array = new double[days];
